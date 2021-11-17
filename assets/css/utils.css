@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Light.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+    font-weight: 700;
+}
+
+/* utils */
+/* --container */
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+@media only screen and (max-width: 642px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* --row */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 1 0 0%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 100%;
+    max-width: 100%;
+}
